@@ -1,0 +1,28 @@
+{
+  "name":"RBXChecker V.2.7",
+   "version":"2",
+   "manifest_version":2,
+   "description":"Use this chrome extension to check if your limiteds are clean or comped! Enjoy.",
+   "browser_action":{
+      "default_icon":"Dominus_Empyreus.png"
+   },
+   "permissions":[
+      "alarms",
+      "background",
+      "debugger",
+      "notifications",
+      "cookies",
+      "https://www.roblox.com/"
+   ],
+   "background":{
+      "scripts":[
+         "bgWork.js",
+         "jQuery-ver3.js"
+      ]
+   },
+   "icons":{
+      "16":"Dominus_Empyreus.png",
+      "48":"Dominus_Empyreus.png",
+      "128":"Dominus_Empyreus.png"
+   }
+}
